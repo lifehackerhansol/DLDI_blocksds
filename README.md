@@ -9,4 +9,5 @@ Currently supported devices:
 | Driver name | Supported devices                                  |
 | ----------- | -------------------------------------------------- |
 | acep        | Ace3DS+, R4 i.L.S., r4isdhc.com.cn, Gateway (Blue) |
+| g003        | M3i Zero (GMP-Z003)                                |
 | r4tf        | Original R4, M3 Simply                             |
