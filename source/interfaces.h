@@ -12,6 +12,8 @@
 #include "platform/acep/interface.h"
 #elif defined(PLATFORM_g003)
 #include "platform/g003/interface.h"
+#elif defined(PLATFORM_m3ds)
+#include "platform/m3ds/interface.h"
 #else
 #error "You must select a platform!"
 #endif

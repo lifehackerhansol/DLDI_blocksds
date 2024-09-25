@@ -6,8 +6,9 @@ This repository hosts both complete and work-in-progress drivers, primarily for 
 
 Currently supported devices:
 
-| Driver name | Supported devices                                  |
-| ----------- | -------------------------------------------------- |
-| acep        | Ace3DS+, R4 i.L.S., r4isdhc.com.cn, Gateway (Blue) |
-| g003        | M3i Zero (GMP-Z003)                                |
-| r4tf        | Original R4, M3 Simply                             |
+| Driver name | Supported devices                                        |
+| ----------- | -------------------------------------------------------- |
+| acep        | Ace3DS+, R4 i.L.S., r4isdhc.com.cn, Gateway (Blue)       |
+| g003        | M3i Zero (GMP-Z003)                                      |
+| m3ds        | M3 DS Real, M3i Zero (other models), iTouchDS, r4rts.com |
+| r4tf        | Original R4, M3 Simply                                   |
