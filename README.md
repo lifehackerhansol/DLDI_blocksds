@@ -6,6 +6,7 @@ This repository hosts both complete and work-in-progress drivers, primarily for 
 
 Currently supported devices:
 
-| Driver name | Supported devices               |
-| ----------- | ------------------------------- |
-| r4tf        | Original R4, M3 Simply          |
+| Driver name | Supported devices                                  |
+| ----------- | -------------------------------------------------- |
+| acep        | Ace3DS+, R4 i.L.S., r4isdhc.com.cn, Gateway (Blue) |
+| r4tf        | Original R4, M3 Simply                             |
