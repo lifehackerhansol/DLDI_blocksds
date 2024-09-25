@@ -11,19 +11,20 @@ ARM_NONE_EABI_PATH	?= $(WONDERFUL_TOOLCHAIN)/toolchain/gcc-arm-none-eabi/bin/
 # User config
 # ===========
 
-NAME		:= dldi
+PLATFORM	?= dldi
+NAME		:= $(PLATFORM)
 
 # Source code paths
 # -----------------
 
 SOURCEDIRS	:= source
-INCLUDEDIRS	:=
+INCLUDEDIRS	:= include
 BINDIRS		:=
 
 # Defines passed to all files
 # ---------------------------
 
-DEFINES		:=
+DEFINES		:= -DDLDI -DPLATFORM_$(PLATFORM)
 
 # Libraries
 # ---------
