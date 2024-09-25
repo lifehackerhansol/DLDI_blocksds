@@ -5,6 +5,7 @@
 
 #include <nds/ndstypes.h>
 #include <libtwl/card/card.h>
+#include <common/libtwl_ext.h>
 #include <iointerface.h>
 
 #include "ior4.h"
@@ -13,14 +14,14 @@
 bool ioR4_Startup(void)
 {
 	// Confirm card is actually responding and is actually an R4
-	return (ioR4SendCommand(IOR4_CMD_CARD_INFO) & 7) == 4;
+	return (cardExt_ReadData4Byte(IOR4_CMD_CARD_INFO, IOR4_CTRL_READ_4B) & 7) == 4;
 }
 
 // Returns true if a card is present and initialized.
 bool ioR4_IsInserted(void)
 {
 	// Confirm card is actually responding and is actually an R4
-	return (ioR4SendCommand(IOR4_CMD_CARD_INFO) & 7) == 4;
+	return (cardExt_ReadData4Byte(IOR4_CMD_CARD_INFO, IOR4_CTRL_READ_4B) & 7) == 4;
 }
 
 // Reads 512 byte sectors into a buffer that may be unaligned. Returns true on

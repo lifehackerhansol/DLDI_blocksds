@@ -54,7 +54,6 @@ static inline u64 IOR4_CMD_SD_WRITE_STAT(u32 sector)
 }
 
 // user API
-u32 ioR4SendCommand(u64 command);
 void ioR4SDReadSector(u32 sector, void* buffer);
 void ioR4SDWriteSector(u32 sector, const void* buffer);
 
