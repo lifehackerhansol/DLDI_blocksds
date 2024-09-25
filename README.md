@@ -12,3 +12,4 @@ Currently supported devices:
 | g003        | M3i Zero (GMP-Z003)                                      |
 | m3ds        | M3 DS Real, M3i Zero (other models), iTouchDS, r4rts.com |
 | r4tf        | Original R4, M3 Simply                                   |
+| sg3d        | Stargate 3DS                                             |
