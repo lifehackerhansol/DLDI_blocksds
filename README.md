@@ -15,6 +15,7 @@ Currently supported devices:
 | r4tf        | Original R4, M3 Simply                                       |
 | r4idsn      | R4iDSN                                                       |
 | rpgs        | Acekard RPG (SD)                                             |
+| scds        | SuperCard DSONE                                              |
 | sg3d        | Stargate 3DS                                                 |
 
 ## Compiling

@@ -20,6 +20,8 @@
 #include "platform/r4idsn/interface.h"
 #elif defined(PLATFORM_rpgs)
 #include "platform/rpgs/interface.h"
+#elif defined(PLATFORM_scds)
+#include "platform/scds/interface.h"
 #elif defined(PLATFORM_sg3d)
 #include "platform/sg3d/interface.h"
 #else
