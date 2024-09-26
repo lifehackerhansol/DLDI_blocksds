@@ -7,8 +7,6 @@
 
 #include <iointerface.h>
 
-#define BYTES_PER_READ 512
-
 extern disc_interface_t ioInterface;
 
 // Initialize the driver. Returns true on success.
