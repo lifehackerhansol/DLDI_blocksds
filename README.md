@@ -6,15 +6,16 @@ This repository hosts both complete and work-in-progress drivers, primarily for 
 
 Currently supported devices:
 
-| Driver name | Supported devices                                        |
-| ----------- | -------------------------------------------------------- |
-| acep        | Ace3DS+, R4 i.L.S., r4isdhc.com.cn, Gateway (Blue)       |
-| g003        | M3i Zero (GMP-Z003)                                      |
-| m3ds        | M3 DS Real, M3i Zero (other models), iTouchDS, r4rts.com |
-| r4tf        | Original R4, M3 Simply                                   |
-| r4idsn      | R4iDSN                                                   |
-| rpgs        | Acekard RPG (SD)                                         |
-| sg3d        | Stargate 3DS                                             |
+| Driver name | Supported devices                                            |
+| ----------- | ------------------------------------------------------------ |
+| ak2         | Acekard 2/2.1/2i, r4itt.net 3DS, R4i3D (and probably others) |
+| acep        | Ace3DS+, R4 i.L.S., r4isdhc.com.cn, Gateway (Blue)           |
+| g003        | M3i Zero (GMP-Z003)                                          |
+| m3ds        | M3 DS Real, M3i Zero (other models), iTouchDS, r4rts.com     |
+| r4tf        | Original R4, M3 Simply                                       |
+| r4idsn      | R4iDSN                                                       |
+| rpgs        | Acekard RPG (SD)                                             |
+| sg3d        | Stargate 3DS                                                 |
 
 ## Compiling
 

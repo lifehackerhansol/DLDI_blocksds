@@ -10,6 +10,8 @@
 #include "platform/r4tf/interface.h"
 #elif defined(PLATFORM_acep)
 #include "platform/acep/interface.h"
+#elif defined(PLATFORM_ak2)
+#include "platform/ak2/interface.h"
 #elif defined(PLATFORM_g003)
 #include "platform/g003/interface.h"
 #elif defined(PLATFORM_m3ds)
