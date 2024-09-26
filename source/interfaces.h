@@ -14,6 +14,8 @@
 #include "platform/g003/interface.h"
 #elif defined(PLATFORM_m3ds)
 #include "platform/m3ds/interface.h"
+#elif defined(PLATFORM_r4idsn)
+#include "platform/r4idsn/interface.h"
 #elif defined(PLATFORM_rpgs)
 #include "platform/rpgs/interface.h"
 #elif defined(PLATFORM_sg3d)
