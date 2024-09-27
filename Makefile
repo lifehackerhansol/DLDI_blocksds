@@ -156,7 +156,7 @@ dump: $(DUMP)
 
 clean:
 	@echo "  CLEAN"
-	$(V)$(RM) $(DLDI) build
+	$(V)$(RM) *.dldi build
 
 # Rules
 # -----
