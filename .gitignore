@@ -1,3 +1,7 @@
 build
 *.elf
 *.dldi
+
+*.nds
+*.bin
+*.dat
