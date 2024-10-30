@@ -14,6 +14,8 @@
 #include "platform/ak2/interface.h"
 #elif defined(PLATFORM_g003)
 #include "platform/g003/interface.h"
+#elif defined(PLATFORM_iply)
+#include "platform/iply/interface.h"
 #elif defined(PLATFORM_m3ds)
 #include "platform/m3ds/interface.h"
 #elif defined(PLATFORM_r4idsn)
