@@ -24,8 +24,12 @@
 #include "platform/rpgs/interface.h"
 #elif defined(PLATFORM_scds)
 #include "platform/scds/interface.h"
+#elif defined(PLATFORM_scdssdhc)
+#include "platform/scdssdhc/interface.h"
 #elif defined(PLATFORM_sg3d)
 #include "platform/sg3d/interface.h"
+#elif defined(PLATFORM_ttio)
+#include "platform/ttio/interface.h"
 #else
 #error "You must select a platform!"
 #endif
