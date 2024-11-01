@@ -9,7 +9,7 @@
 #include <common/libtwl_ext.h>
 #include <iointerface.h>
 
-#include <common/iorpg.h>
+#include <common/rpg/iorpg.h>
 
 // Initialize the driver. Returns true on success.
 bool R4iDSN_Startup(void)
