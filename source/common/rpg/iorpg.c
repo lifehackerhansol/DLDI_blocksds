@@ -12,7 +12,7 @@
 #include <libtwl/card/card.h>
 #include <common/libtwl_ext.h>
 
-#include <common/iorpg.h>
+#include <common/rpg/iorpg.h>
 
 static u32 isSDHC = 0;
 
