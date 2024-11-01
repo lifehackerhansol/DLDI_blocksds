@@ -17,7 +17,9 @@ Currently supported devices:
 | r4idsn      | R4iDSN                                                       |
 | rpgs        | Acekard RPG (SD)                                             |
 | scds        | SuperCard DSONE                                              |
+| scdssdhc    | SuperCard DSONE SDHC                                         |
 | sg3d        | Stargate 3DS                                                 |
+| ttio        | DSTT                                                         |
 
 ## Compiling
 
