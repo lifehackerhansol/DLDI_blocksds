@@ -6,6 +6,8 @@
 
 #pragma once
 
+#include <nds/ndstypes.h>
+
 // Wrapper for reading from a cartridge.
 void cardExt_ReadData(u64 command, u32 flags, void* buffer, u32 length);
 

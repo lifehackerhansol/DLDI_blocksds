@@ -10,6 +10,8 @@
 
 #pragma once
 
+#include <nds/ndstypes.h>
+
 #define REG_MCCNT0 (*(vu16*)0x040001A0)
 #define REG_MCD0   (*(vu16*)0x040001A2)
 #define REG_MCCNT1 (*(vu32*)0x040001A4)
