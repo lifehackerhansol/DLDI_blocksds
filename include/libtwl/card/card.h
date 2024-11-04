@@ -1,3 +1,5 @@
+// clang-format off
+
 /*
     This file is a part of libtwl (card.h)
 

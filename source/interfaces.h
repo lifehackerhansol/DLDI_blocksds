@@ -1,7 +1,7 @@
 /*
-	Copyright (C) 2023 lifehackerhansol
+    Copyright (C) 2023 lifehackerhansol
 
-	SPDX-License-Identifier: Zlib
+    SPDX-License-Identifier: Zlib
 */
 
 #pragma once
@@ -33,4 +33,3 @@
 #else
 #error "You must select a platform!"
 #endif
-

@@ -1,7 +1,7 @@
 /*
-	Copyright (C) 2024 lifehackerhansol
+    Copyright (C) 2024 lifehackerhansol
 
-	SPDX-License-Identifier: Zlib
+    SPDX-License-Identifier: Zlib
 */
 
 #pragma once
