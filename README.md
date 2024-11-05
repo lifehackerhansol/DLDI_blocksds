@@ -10,6 +10,7 @@ Currently supported devices:
 | ----------- | ------------------------------------------------------------ |
 | ak2         | Acekard 2/2.1/2i, r4itt.net 3DS, R4i3D (and probably others) |
 | acep        | Ace3DS+, R4 i.L.S., r4isdhc.com.cn, Gateway (Blue)           |
+| ez5n        | EZ-Flash Parallel                                            |
 | g003        | M3i Zero (GMP-Z003)                                          |
 | iply        | iPlayer                                                      |
 | m3ds        | M3 DS Real, M3i Zero (other models), iTouchDS, r4rts.com     |
