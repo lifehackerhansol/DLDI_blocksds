@@ -1,24 +1,14 @@
 #!/bin/bash
 
-drivers="\
-    acep \
-    ak2 \
-    g003 \
-    iply \
-    m3ds \
-    r4idsn \
-    r4tf \
-    rpgs \
-    scds \
-    scdssdhc \
-    sg3d \
-    ttio \
-"
+set -e
 
 rm -rf out
 mkdir -p out
 
-for i in $drivers; do
-    make PLATFORM=$i
-    cp $i.dldi out
+for i in source/platform/*; do
+    FILE=`basename $i`
+    if ! [[ $FILE == "00example" ]]; then
+        make PLATFORM=$FILE
+        cp $FILE.dldi out
+    fi
 done
