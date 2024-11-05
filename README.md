@@ -33,4 +33,3 @@ Currently supported devices:
 
 1. Observe the required interface functions in `include/iointerface.h` and implement it to your driver as needed
 1. Add device-specific code to `source/platform/(driver name)`
-1. Add your device to the `source/interfaces.h` file.

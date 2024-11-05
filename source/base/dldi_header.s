@@ -4,7 +4,7 @@
 // Copyright (C) 2006-2016 Dave Murphy (WinterMute)
 
 #include <nds/arm9/dldi_asm.h>
-#include "interfaces.h"
+#include "dldi_header.h"
 
     .syntax unified
     .section ".crt0","ax"
